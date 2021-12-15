@@ -1,0 +1,81 @@
+.testimonial {
+  background-color: #d5fafc;
+  padding-top: 64px;
+  height: 896px;
+  position: relative;
+  &__quotes {
+  }
+  &__mark {
+    width: 140px;
+    height: 130px;
+  }
+  &__title {
+    margin-top: -60px;
+    margin-left: 100px;
+    width: 45%;
+    margin-bottom: 24px;
+  }
+  &__heading {
+    font-size: 4.8rem;
+    line-height: 1.2;
+    font-weight: 800;
+    margin-bottom: 16px;
+  }
+  &__desc {
+    font-size: 1.8rem;
+    font-weight: 400;
+  }
+  &__list {
+    margin-left: 170px;
+    margin-right: 70px;
+    display: flex;
+    height: 561px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  &__item {
+    &:nth-child(odd) {
+      width: 35rem;
+    }
+    &:nth-child(even) {
+      width: 44.5rem;
+      margin-top: -125px;
+    }
+    background-color: #ffffff;
+    padding: 32px;
+    margin-bottom: 32px;
+  }
+  &__logo {
+    width: 140px;
+    height: 40px;
+    margin-bottom: 32px;
+  }
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  &__mark-mini {
+    width: 14px;
+    height: 14px;
+  }
+  &__detail {
+    display: flex;
+    flex-direction: column;
+  }
+  &__text {
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  &__name {
+    padding-top: 24px;
+    font-weight: 700;
+    color: #18191f;
+  }
+  &__office {
+    font-size: 1.4rem;
+    line-height: 2;
+    font-weight: 500;
+    color: #969bab;
+  }
+}
