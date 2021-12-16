@@ -1,0 +1,54 @@
+.footer {
+  background-color: #0b0d17;
+  padding: 56px 0;
+  &__main {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__logo {
+  }
+  &__links {
+    display: flex;
+    gap: 2.4rem;
+    margin: 24px 0;
+  }
+  &__link {
+    color: #ffffff;
+    font-size: 1.6rem;
+    transition: color 0.25s ease-out;
+    &:hover {
+      color: #fe9a22;
+    }
+  }
+  &__copyright {
+    font-size: 1.4rem;
+    display: block;
+    color: #d9dbe1;
+    padding-top: 12px;
+  }
+  &__title {
+    color: #d9dbe1;
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+  &__btn {
+    background-color: #000000;
+    padding: 4px 4px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin: 16px 0;
+  }
+  &__info {
+    color: #ffffff;
+  }
+  &__desc {
+    font-size: 1rem;
+  }
+  &__name {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+}
