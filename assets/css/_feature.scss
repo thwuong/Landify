@@ -1,12 +1,12 @@
 .feature {
-  &__title {
+  &__heading {
     padding-top: 64px;
     padding-bottom: 48px;
     width: 50%;
     margin: 0 auto;
     text-align: center;
   }
-  &__heading {
+  &__title {
     font-size: 4.8rem;
     font-weight: 800;
     padding-bottom: 16px;
@@ -34,5 +34,61 @@
   }
   &__item &__desc {
     font-size: 1.6rem;
+  }
+  &__main {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    padding: 64px 0;
+  }
+  &__main .feature__heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: unset;
+    padding: 0 48px;
+  }
+  &__main .feature__title {
+    line-height: 1.5;
+  }
+  &__main .feature__desc {
+    text-align: unset;
+    line-height: 2;
+    padding-bottom: 1rem;
+  }
+  &__mockup {
+    position: relative;
+    background-color: #f1e4ff;
+    width: 540px;
+    height: 540px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  &__phone {
+    position: absolute;
+    top: 8%;
+  }
+  &__btn {
+    margin-left: -32px;
+  }
+  &__content {
+    padding: 64px 0;
+    .feature__heading {
+      width: 100%;
+      display: flex;
+      gap: 3rem;
+      text-align: left;
+      padding-top: unset;
+      .feature__title {
+        width: 50%;
+      }
+      .feature__desc {
+        width: 50%;
+        text-align: left;
+      }
+    }
   }
 }

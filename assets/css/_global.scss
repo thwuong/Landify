@@ -9,7 +9,8 @@ body {
   color: #18191f;
 }
 .wrapper {
-  width: 1440px;
+  // width: 1440px;
+  width: 100%;
   display: block;
   padding: 0;
 }
@@ -34,5 +35,9 @@ body {
   &--transparent {
     background-color: transparent;
     color: #8c30f5;
+    transition: color 0.2s ease-out;
+    &:hover {
+      color: #fe9a22;
+    }
   }
 }
