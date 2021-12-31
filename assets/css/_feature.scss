@@ -1,4 +1,5 @@
 .feature {
+  width: 100%;
   &__heading {
     padding-top: 64px;
     padding-bottom: 48px;
@@ -74,6 +75,9 @@
   &__btn {
     margin-left: -32px;
   }
+  &__cover {
+    width: 100%;
+  }
   &__content {
     padding: 64px 0;
     .feature__heading {
@@ -89,6 +93,35 @@
         width: 50%;
         text-align: left;
       }
+    }
+  }
+}
+@media (min-width: 1024px) and (max-width: 1239px) {
+  .feature {
+  }
+}
+@media (min-width: 740px) and (max-width: 1023px) {
+  .feature {
+    &__heading {
+      width: 100%;
+    }
+    &__item {
+      width: 45%;
+    }
+    &__main {
+      flex-direction: column;
+    }
+    .feature__content .feature__heading {
+      flex-direction: column;
+      align-items: center;
+    }
+    .feature__content .feature__heading .feature__title {
+      width: 100%;
+      text-align: center;
+    }
+    .feature__content .feature__heading .feature__desc {
+      width: 100%;
+      text-align: center;
     }
   }
 }

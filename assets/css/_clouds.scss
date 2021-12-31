@@ -1,6 +1,15 @@
+.clouds {
+  width: 100%;
+}
 .logo {
   display: flex;
   justify-content: space-evenly;
   padding: 25px 0;
   margin: 16px 0;
+}
+@media (min-width: 740px) and (max-width: 1023px) {
+  .logo {
+    justify-content: center;
+    gap: 2rem;
+  }
 }

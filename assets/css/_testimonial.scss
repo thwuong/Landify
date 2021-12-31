@@ -1,10 +1,8 @@
 .testimonial {
+  width: 100%;
   background-color: #d5fafc;
   padding-top: 64px;
-  height: 896px;
   position: relative;
-  &__quotes {
-  }
   &__mark {
     width: 140px;
     height: 130px;
@@ -77,5 +75,38 @@
     line-height: 2;
     font-weight: 500;
     color: #969bab;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1239px) {
+  .testimonial {
+    &__item {
+      &:nth-child(odd) {
+        width: 32rem;
+      }
+      &:nth-child(even) {
+        width: 40rem;
+      }
+      margin: 16px;
+    }
+  }
+}
+@media (min-width: 740px) and (max-width: 1023px) {
+  .testimonial {
+    &__title {
+      width: 100%;
+    }
+    &__item {
+      &:nth-child(odd) {
+        width: 50rem;
+      }
+      &:nth-child(even) {
+        width: 50rem;
+        margin-top: unset;
+      }
+    }
+    &__list {
+      height: 100%;
+      margin: 3rem 0 3rem 10rem;
+    }
   }
 }
