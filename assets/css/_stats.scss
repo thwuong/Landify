@@ -64,3 +64,26 @@
     }
   }
 }
+@media (max-width: 739px) {
+  .stats {
+    &__main {
+      flex-direction: column;
+    }
+    &__heading {
+      width: 100%;
+      text-align: center;
+    }
+    &__title {
+      font-size: 6rem;
+    }
+    &__counts {
+      margin-top: 5rem;
+      justify-content: center;
+      width: 100%;
+      gap: 2rem;
+    }
+    &__item {
+      width: 40%;
+    }
+  }
+}

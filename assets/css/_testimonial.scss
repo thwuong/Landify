@@ -110,3 +110,26 @@
     }
   }
 }
+@media (max-width: 739px) {
+  .testimonial {
+    &__title {
+      width: 100%;
+      margin: unset;
+      margin-bottom: 3rem;
+    }
+    &__item {
+      &:nth-child(odd) {
+        width: 50rem;
+      }
+      &:nth-child(even) {
+        width: 50rem;
+        margin-top: unset;
+      }
+    }
+    &__list {
+      height: 100%;
+      gap: 3rem;
+      margin: unset;
+    }
+  }
+}

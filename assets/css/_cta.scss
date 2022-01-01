@@ -67,3 +67,38 @@
     }
   }
 }
+@media (max-width: 739px) {
+  .cta {
+    &__main {
+      flex-direction: column;
+    }
+    &__content {
+      width: 100%;
+    }
+    &__heading {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+    &__step {
+      text-align: center;
+      font-size: 3rem;
+    }
+    &__mockup {
+      flex-direction: column;
+    }
+    .header__right {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+    .header__btn {
+      padding: 16px 32px;
+    }
+    .header__desc {
+      font-size: 1.4rem;
+    }
+    .header__name {
+      font-size: 1.8rem;
+    }
+  }
+}

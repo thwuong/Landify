@@ -19,9 +19,8 @@ body {
   display: block;
   margin: 0 auto;
 }
+.mobile-close,
 .menu-moblie {
-  position: relative;
-  display: block;
   font-size: 30px;
   display: none;
 }
@@ -60,5 +59,33 @@ body {
     display: block;
     margin: auto;
     cursor: pointer;
+  }
+  .mobile-close {
+    color: #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    transition: linear all 0.2s;
+    &:hover {
+      color: #fe9a22;
+    }
+  }
+}
+@media (max-width: 739px) {
+  .container {
+    width: 500px;
+  }
+  .menu-moblie {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+  }
+  .mobile-close {
+    color: #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    transition: linear all 0.2s;
+    &:hover {
+      color: #fe9a22;
+    }
   }
 }
