@@ -75,15 +75,12 @@
       flex-direction: column;
       align-items: flex-start;
     }
-    &__img {
-      width: 55px;
-    }
     &__btn {
-      padding: 16px 32px;
+      padding: 12px 14px;
       display: inline-flex;
     }
     &__title {
-      font-size: 3rem;
+      font-size: 2rem;
     }
     &__dowloads {
       display: flex;
@@ -93,7 +90,6 @@
     &__badges {
       margin-top: 5rem;
       width: 100%;
-      text-align: center;
     }
   }
 }

@@ -114,15 +114,19 @@
   .testimonial {
     &__title {
       width: 100%;
+      text-align: center;
       margin: unset;
       margin-bottom: 3rem;
     }
+    &__heading {
+      font-size: 4rem;
+    }
     &__item {
       &:nth-child(odd) {
-        width: 50rem;
+        width: 36rem;
       }
       &:nth-child(even) {
-        width: 50rem;
+        width: 36rem;
         margin-top: unset;
       }
     }

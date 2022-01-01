@@ -101,7 +101,7 @@ body {
 }
 @media (max-width: 739px) {
   .container {
-    width: 500px;
+    width: 358px;
   }
 
   .menu-moblie {
@@ -247,11 +247,8 @@ body {
   }
 }
 @media (max-width: 739px) {
-  .header {
-    justify-content: center;
-  }
   .header__left {
-    gap: 30rem;
+    gap: 22rem;
   }
   .header__right {
     display: none;
@@ -604,14 +601,18 @@ body {
 @media (max-width: 739px) {
   .testimonial__title {
     width: 100%;
+    text-align: center;
     margin: unset;
     margin-bottom: 3rem;
   }
+  .testimonial__heading {
+    font-size: 4rem;
+  }
   .testimonial__item:nth-child(odd) {
-    width: 50rem;
+    width: 36rem;
   }
   .testimonial__item:nth-child(even) {
-    width: 50rem;
+    width: 36rem;
     margin-top: unset;
   }
   .testimonial__list {
@@ -692,16 +693,19 @@ body {
     text-align: center;
   }
   .stats__title {
-    font-size: 6rem;
+    font-size: 4rem;
   }
   .stats__counts {
     margin-top: 5rem;
-    justify-content: center;
     width: 100%;
-    gap: 2rem;
+    align-items: center;
   }
   .stats__item {
-    width: 40%;
+    width: 100%;
+    justify-content: center;
+  }
+  .stats__content {
+    max-width: 150px;
   }
 }
 .cta {
@@ -783,7 +787,7 @@ body {
   }
   .cta__step {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .cta__mockup {
     flex-direction: column;
@@ -794,7 +798,7 @@ body {
     width: 100%;
   }
   .cta .header__btn {
-    padding: 16px 32px;
+    padding: 12px 14px;
   }
   .cta .header__desc {
     font-size: 1.4rem;
@@ -874,15 +878,12 @@ body {
     flex-direction: column;
     align-items: flex-start;
   }
-  .footer__img {
-    width: 55px;
-  }
   .footer__btn {
-    padding: 16px 32px;
+    padding: 12px 14px;
     display: inline-flex;
   }
   .footer__title {
-    font-size: 3rem;
+    font-size: 2rem;
   }
   .footer__dowloads {
     display: flex;
@@ -892,7 +893,6 @@ body {
   .footer__badges {
     margin-top: 5rem;
     width: 100%;
-    text-align: center;
   }
 }
 
