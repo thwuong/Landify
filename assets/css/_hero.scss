@@ -3,7 +3,8 @@
   width: 100%;
   padding-top: 10px;
   background-image: url(../img/Background.png);
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .header {
   display: flex;
@@ -127,7 +128,7 @@
 @media (max-width: 739px) {
   .header {
     &__left {
-      gap: 22rem;
+      gap: 17rem;
     }
     &__right {
       display: none;
@@ -141,7 +142,7 @@
     &__menu {
       padding: 2rem 0;
       background-color: #333030;
-      width: 35rem;
+      width: 100%;
       position: fixed;
       left: 0;
       top: 0;
@@ -164,7 +165,7 @@
     flex-direction: column;
     gap: 3rem;
     &__heading {
-      font-size: 50px;
+      font-size: 4.6rem;
     }
   }
   .open {
